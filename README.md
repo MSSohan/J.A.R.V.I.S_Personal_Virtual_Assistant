@@ -121,7 +121,7 @@ Demo video for ***JARVIS*** is available [here](https://docs.google.com/presenta
 > Note: For any errors while installing the python modules refer [**```ERRORS.md```**](https://github.com/MSSohan/J.A.R.V.I.S_Personal_Virtual_Assistant/blob/main/ERRORS/ERRORS.md) because I got some errors while installing and using them.
 
 ## Motivation for this project🙃
-Due to covid19 in my house I'm in a seperate room, without talking with anyone, so thought to talk with my laptop which I will use everyday, and came up with this project.
+Self-Motivated.
 
 ## How to Contribute 🤔
 
