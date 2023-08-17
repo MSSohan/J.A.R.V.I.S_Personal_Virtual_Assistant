@@ -107,12 +107,12 @@ To run this project you should need some API key's for reading news, for finding
     $ pip install -r requirements.txt
     ```
 
-    > Note: For any errors while installing the python modules refer [**```ERRORS.md```**](https://github.com/BolisettySujith/J.A.R.V.I.S/blob/main/ERRORS/ERRORS.md) because I got some errors while installing and using them.
+    > Note: For any errors while installing the python modules refer [**```ERRORS.md```**](https://github.com/MSSohan/J.A.R.V.I.S_Personal_Virtual_Assistant/blob/main/ERRORS/ERRORS.md) because I got some errors while installing and using them.
 - Add the correct **system** paths in ```JARVIS.py``` to open the **system applications**
 - Add your **gmail id** and **password** to send emails(line:797,798)
 - Make sure you have registerd in [NewsAPI](https://newsapi.org/) and replace the ```apiKey=```**```YOUR_NEWS_API_KEY```** with your API key(Line: 852) and in [Open cage](https://opencagedata.com/) and replace the ```API_key =``` "**```_OPEN_CAGE_GEOCODE_API_KEY_```**" with your API key(PhoneNumber.py(lineNo: 13))
 - For using mobile camera you need to first install an app in mobile called [IP Webcam](https://play.google.com/store/apps/details?id=com.pas.webcam&hl=en_US&gl=US) after installing go to **START SERVER** it will open your mobile camara at the bottom of the screen you can see **IPv4** there you can find the IP address and replace ```_IP_Webcam_IP_address_``` with the IP address in ```JARVIS.py``` MobileCamera function(line: 332)
-- Add the correct system paths to gifs or for background images in **```JarvisUi.py```** and **```JARVIS.py```**. If you got any elements missing(RED SCREEN) refer [**```ERRORS.md```**](https://github.com/BolisettySujith/J.A.R.V.I.S/blob/main/ERRORS/ERRORS.md) file.
+- Add the correct system paths to gifs or for background images in **```JarvisUi.py```** and **```JARVIS.py```**. If you got any elements missing(RED SCREEN) refer [**```ERRORS.md```**](https://github.com/MSSohan/J.A.R.V.I.S_Personal_Virtual_Assistant/blob/main/ERRORS/ERRORS.md) file.
 - Finally to launch Jarvis, use the following commands:
   > **GUI Version of Jarvis**
    ```
@@ -130,17 +130,17 @@ Demo video for ***JARVIS*** is available [here](https://docs.google.com/presenta
 ## FINAL GUI of JARVIS😎
 <p align="center"><img src="Images/JAR.gif" alt="JARVIS" width="75%"/></a></p>
 
-> Note: For any errors while installing the python modules refer [**```ERRORS.md```**](https://github.com/BolisettySujith/J.A.R.V.I.S/blob/main/ERRORS/ERRORS.md) because I got some errors while installing and using them.
+> Note: For any errors while installing the python modules refer [**```ERRORS.md```**](https://github.com/MSSohan/J.A.R.V.I.S_Personal_Virtual_Assistant/blob/main/ERRORS/ERRORS.md) because I got some errors while installing and using them.
 
 ## Motivation for this project🙃
 Due to covid19 in my house I'm in a seperate room, without talking with anyone, so thought to talk with my laptop which I will use everyday, and came up with this project.
 
 ## How to Contribute 🤔
 
-To contribute to this project please read the [CONTRITUTING.md](https://github.com/BolisettySujith/J.A.R.V.I.S/blob/main/CONTRIBUTING.md) file.
+To contribute to this project please read the [CONTRITUTING.md](https://github.com/MSSohan/J.A.R.V.I.S_Personal_Virtual_Assistant/blob/main/CONTRIBUTING.md) file.
 
 ## Want to run JARVIS as an Application?
-Read [this](https://github.com/BolisettySujith/J.A.R.V.I.S/blob/main/py2exe.md), to convert a .`py` file to `.exe` file. 
+[Read this](https://github.com/MSSohan/J.A.R.V.I.S_Personal_Virtual_Assistant/blob/main/py2exe.md), to convert a .`py` file to `.exe` file. 
 
 ## Future plans😇
 
