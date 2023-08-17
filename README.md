@@ -87,7 +87,7 @@ To run this project you should need some API key's for reading news, for finding
 - You need to first ```fork``` this repository and ```clone``` the repository to your local system 
 
     ```
-    $ git clone git@github.com:MSSohan/J.A.R.V.I.S_Personal_Virtual_Assistant.git
+    $ git clone https://github.com/MSSohan/J.A.R.V.I.S_Personal_Virtual_Assistant.git
     ```
 - Make sure to install all the required python modules mentioned above or you can simply install them by 
 
