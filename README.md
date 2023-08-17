@@ -125,7 +125,7 @@ Due to covid19 in my house I'm in a seperate room, without talking with anyone, 
 
 ## How to Contribute 🤔
 
-To contribute to this project please read the [CONTRITUTING.md](https://github.com/MSSohan/J.A.R.V.I.S_Personal_Virtual_Assistant/blob/main/CONTRIBUTING.md) file.
+To contribute to this project please read the [CONTRIBUTING.md](https://github.com/MSSohan/J.A.R.V.I.S_Personal_Virtual_Assistant/blob/main/CONTRIBUTING.md) file.
 
 ## Want to run JARVIS as an Application?
 [Read this](https://github.com/MSSohan/J.A.R.V.I.S_Personal_Virtual_Assistant/blob/main/py2exe.md), to convert a .`py` file to `.exe` file. 
