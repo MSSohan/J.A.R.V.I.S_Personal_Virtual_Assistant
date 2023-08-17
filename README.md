@@ -115,7 +115,7 @@ That's it **#Enjoy** speaking with your computer friend 😁
 
 Demo video for ***JARVIS*** is available [here](https://docs.google.com/presentation/d/14w4dQUpqVOmGvAXEn8vYkHQUmMYU72wIb-AK0SWCWYk/edit?usp=sharing)
 
-## FINAL GUI of JARVIS😎
+## Final GUI of J.A.R.V.I.S😎
 <p align="center"><img src="Images/JAR.gif" alt="JARVIS" width="75%"/></a></p>
 
 > Note: For any errors while installing the python modules refer [**```ERRORS.md```**](https://github.com/MSSohan/J.A.R.V.I.S_Personal_Virtual_Assistant/blob/main/ERRORS/ERRORS.md) because I got some errors while installing and using them.
