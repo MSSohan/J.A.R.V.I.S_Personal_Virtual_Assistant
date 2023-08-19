@@ -15,7 +15,7 @@ class Ui_JarvisUI(object):
     cpath =""
     def setupUi(self, JarvisUI):
         JarvisUI.setObjectName("JarvisUI")
-        JarvisUI.resize(1819, 926)
+        JarvisUI.resize(1330, 710)
         self.centralwidget = QtWidgets.QWidget(JarvisUI)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
