@@ -7,20 +7,23 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_JarvisUI(object):
     cpath =""
     def setupUi(self, JarvisUI):
+
         JarvisUI.setObjectName("JarvisUI")
         JarvisUI.resize(1350, 700)
+        
         self.centralwidget = QtWidgets.QWidget(JarvisUI)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(0, -10, 1350, 700))
+        self.label.setGeometry(QtCore.QRect(0, -25, 1350, 770))
         self.label.setAutoFillBackground(False)
         self.label.setStyleSheet("background-color: rgb(162, 0, 0);")
         self.label.setText("")
         self.label.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\bg2.jpg"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
+        
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_3.setGeometry(QtCore.QRect(1040, 860, 121, 51))
+        self.pushButton_3.setGeometry(QtCore.QRect(940, 600, 121, 51))
         font = QtGui.QFont()
         font.setPointSize(20)
         font.setBold(True)
@@ -29,8 +32,9 @@ class Ui_JarvisUI(object):
         self.pushButton_3.setAutoFillBackground(False)
         self.pushButton_3.setStyleSheet("background-color: rgb(0, 136, 255);")
         self.pushButton_3.setObjectName("pushButton_3")
+
         self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
-        self.pushButton_4.setGeometry(QtCore.QRect(1220, 860, 121, 51))
+        self.pushButton_4.setGeometry(QtCore.QRect(820, 600, 121, 51))
         font = QtGui.QFont()
         font.setPointSize(20)
         font.setBold(True)
