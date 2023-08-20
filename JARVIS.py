@@ -1,4 +1,4 @@
-#_____________________________________________________J.A.R.V.I.S________________________________________________________
+#======================J.A.R.V.I.S========================
 #Python modules used for this programm
 import sys
 import speech_recognition as sr
@@ -56,7 +56,7 @@ class MainThread(QThread):
     def run(self):
         self.Intro()
     
-    #function that will take the commands  to convert voice into text
+    #function that will take the commands to convert voice into text
     def take_Command(self):
         try:
             listener = sr.Recognizer()
@@ -147,7 +147,7 @@ class MainThread(QThread):
                 self.edit(self.command)
             #Command to open desktop applications
             #It can open : caliculator, notepad,paint, teams(aka online classes), discord, spotify, ltspice,vscode(aka editor), steam, VLC media player
-            elif ('open calculator'in self.command) or ('open notepad'in self.command) or ('open paint'in self.command) or ('open online classes'in self.command) or ('open discord'in self.command) or ('open ltspice'in self.command) or ('open editor'in self.command) or ('open spotify'in self.command) or ('open steam'in self.command) or ('open media player'in self.command):
+            elif ('open calculator'in self.command) or ('open notepad'in self.command) or ('open paint'in self.command) or ('open online classes'in self.command) or ('open discord'in self.command) or ('open pspice'in self.command) or ('open editor'in self.command) or ('open spotify'in self.command) or ('open steam'in self.command) or ('open media player'in self.command):
                 self.OpenApp(self.command)
             #Command to close desktop applications
             #It can close : caliculator, notepad,paint, discord, spotify, ltspice,vscode(aka editor), steam, VLC media player
@@ -594,9 +594,9 @@ class MainThread(QThread):
     def Fun(self,command):
         print(command)
         if 'your name' in command:
-            self.talk("My name is jarvis")
+            self.talk("My name is Jarvis")
         elif 'my name' in command:
-            self.talk("your name is Sujith")
+            self.talk("your name is Sohan")
         elif 'university name' in command:
             self.talk("you are studing in Amrita Vishwa Vidyapeetam, with batcheloe in Computer Science and Artificail Intelligence") 
         elif 'what can you do' in command:
