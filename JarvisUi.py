@@ -45,7 +45,7 @@ class Ui_JarvisUI(object):
         self.pushButton_4.setObjectName("pushButton_4")
 
         self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser.setGeometry(QtCore.QRect(1100, 50, 181, 51))
+        self.textBrowser.setGeometry(QtCore.QRect(790, 50, 161, 51))
         self.textBrowser.setStyleSheet("background:transparent;\n"
         "border-radius:skyblue;\n"
         "color : white;\n"
@@ -53,7 +53,7 @@ class Ui_JarvisUI(object):
         self.textBrowser.setObjectName("textBrowser")
 
         self.textBrowser_2 = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser_2.setGeometry(QtCore.QRect(1100, 50, 181, 51))
+        self.textBrowser_2.setGeometry(QtCore.QRect(950, 50, 161, 51))
         self.textBrowser_2.setStyleSheet("background:transparent;\n"
         "border-radius:skyblue;\n"
         "color : white;\n"
@@ -117,14 +117,14 @@ class Ui_JarvisUI(object):
         self.label_9.setObjectName("label_9")
 
         self.label_10 = QtWidgets.QLabel(self.centralwidget)
-        self.label_10.setGeometry(QtCore.QRect(1160, 10, 191, 91))
+        self.label_10.setGeometry(QtCore.QRect(790, 10, 161, 91))
         self.label_10.setText("")
-        # self.label_10.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\frame10.jpg"))
+        self.label_10.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\frame10.jpg"))
         self.label_10.setScaledContents(True)
         self.label_10.setObjectName("label_10")
 
         self.label_11 = QtWidgets.QLabel(self.centralwidget)
-        self.label_11.setGeometry(QtCore.QRect(850, 10, 191, 91))
+        self.label_11.setGeometry(QtCore.QRect(950, 10, 161, 91))
         self.label_11.setText("")
         self.label_11.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\frame10.jpg"))
         self.label_11.setScaledContents(True)
@@ -197,7 +197,7 @@ class Ui_JarvisUI(object):
 
     def retranslateUi(self, JarvisUI):
         _translate = QtCore.QCoreApplication.translate
-        JarvisUI.setWindowTitle(_translate("JarvisUI", "MainWindow"))
+        JarvisUI.setWindowTitle(_translate("JarvisUI", "J.A.R.V.I.S"))
         self.pushButton_3.setText(_translate("JarvisUI", "EXIT"))
         self.pushButton_4.setText(_translate("JarvisUI", "RUN"))
         self.label_14.setText(_translate("JarvisUI", "    DATE"))
