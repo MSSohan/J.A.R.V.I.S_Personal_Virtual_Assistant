@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1819</width>
-    <height>926</height>
+    <width>1350</width>
+    <height>700</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>J.A.R.V.I.S</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -19,8 +19,8 @@
      <rect>
       <x>-60</x>
       <y>-70</y>
-      <width>1981</width>
-      <height>1091</height>
+      <width>1350</width>
+      <height>700</height>
      </rect>
     </property>
     <property name="autoFillBackground">
