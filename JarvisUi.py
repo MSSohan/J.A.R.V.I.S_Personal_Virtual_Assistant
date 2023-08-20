@@ -60,8 +60,13 @@ class Ui_JarvisUI(object):
         "font-size:20px;")
         self.textBrowser_2.setObjectName("textBrowser_2")
 
+        x_r = 450
+        y_r =250
+        w_r = x_r + 249
+        h_r = y_r + 286
+
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
-        self.label_3.setGeometry(QtCore.QRect(580, 360, 661, 381))
+        self.label_3.setGeometry(QtCore.QRect(x_r, y_r, w_r, h_r))
         self.label_3.setText("")
         self.label_3.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\ringJar.gif"))
         self.label_3.setScaledContents(True)
@@ -75,23 +80,23 @@ class Ui_JarvisUI(object):
         self.label_4.setObjectName("label_4")
 
         self.label_2 = QtWidgets.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(790, 180, 241, 211))
+        self.label_2.setGeometry(QtCore.QRect(500, 135, 241, 211))
         self.label_2.setText("")
-        # self.label_2.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\ironman1.gif"))
+        self.label_2.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\ironman1.gif"))
         self.label_2.setScaledContents(True)
         self.label_2.setObjectName("label_2")
 
         self.label_5 = QtWidgets.QLabel(self.centralwidget)
-        self.label_5.setGeometry(QtCore.QRect(10, 260, 641, 611))
+        self.label_5.setGeometry(QtCore.QRect(5, 180, 406, 431))
         self.label_5.setText("")
-        # self.label_5.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\frame1_flip.png"))
+        self.label_5.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\frame1_flip.png"))
         self.label_5.setScaledContents(True)
         self.label_5.setObjectName("label_5")
 
         self.label_6 = QtWidgets.QLabel(self.centralwidget)
-        self.label_6.setGeometry(QtCore.QRect(1170, 260, 631, 601))
+        self.label_6.setGeometry(QtCore.QRect(920, 180, 420, 431))
         self.label_6.setText("")
-        # self.label_6.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\fram1.png"))
+        self.label_6.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\fram1.png"))
         self.label_6.setScaledContents(True)
         self.label_6.setObjectName("label_6")
 
