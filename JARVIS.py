@@ -46,7 +46,7 @@ import qrcode
 #we will be using this for text to speech function.
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
-engine.setProperty('voice',voices[0].id) #index '0' for 'David'(male) voice index '1' for 'zira'(female) voice
+engine.setProperty('voice',voices[1].id) #index '0' for 'David'(male) voice index '1' for 'zira'(female) voice
 
 #Main classs where all the functiona are present
 class MainThread(QThread):
