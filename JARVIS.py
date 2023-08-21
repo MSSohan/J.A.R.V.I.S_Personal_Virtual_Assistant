@@ -596,9 +596,9 @@ class MainThread(QThread):
         if ('your name' in command) or ('what is your name' in command):
             self.talk("My name is Jarvis")
         elif ('my name' in command) or ('what is my name' in command):
-            self.talk("your name is Sohan")
+            self.talk("your name is Sohan, you are my boss")
         elif 'university name' in command:
-            self.talk("you are studing in Amrita Vishwa Vidyapeetam, with batcheloe in Computer Science and Artificail Intelligence") 
+            self.talk("you are studing in Chittagong University, with MSc in Electrical and Electronic Engineering") 
         elif 'what can you do' in command:
             self.talk("I talk with you until you want to stop, I can say time, open your social media accounts,your open source accounts, open google browser,and I can also open your college websites, I can search for some thing in google and I can tell jokes")
         elif 'your age' in command:
@@ -652,7 +652,7 @@ class MainThread(QThread):
         print(command)
         time = datetime.datetime.now().strftime('%I:%M %p')
         print(time)
-        self.talk("Current time is "+time)
+        self.talk("Current time is " + time)
     
     #calender day
     def Cal_day(self):
