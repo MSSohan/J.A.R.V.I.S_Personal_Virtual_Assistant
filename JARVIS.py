@@ -98,7 +98,7 @@ class MainThread(QThread):
                 self.Fun(self.command)
             #schedule commands for remembering you what is the planns of the day
             elif ("college time table" in self.command) or ("schedule" in self.command):
-                self.shedule() #function is present from 407
+                self.schedule() #function is present from 407
             #It will tell the day Eg : Today is wednesday
             elif ("today" in self.command):
                 day = self.Cal_day()
@@ -593,9 +593,9 @@ class MainThread(QThread):
     #Fun commands to interact with jarvis
     def Fun(self,command):
         print(command)
-        if 'your name' in command:
+        if ('your name' in command) or ('what is your name' in command):
             self.talk("My name is Jarvis")
-        elif 'my name' in command:
+        elif ('my name' in command) or ('what is my name' in command):
             self.talk("your name is Sohan")
         elif 'university name' in command:
             self.talk("you are studing in Amrita Vishwa Vidyapeetam, with batcheloe in Computer Science and Artificail Intelligence") 
@@ -664,11 +664,11 @@ class MainThread(QThread):
         
         return day_of_the_week
 
-    #shedule function for remembering todays plans
+    #schedule function for remembering todays plans
     #NOTE For example I have declared my college timetable you can declare anything you want
-    def shedule(self):
+    def schedule(self):
         day = self.Cal_day().lower()
-        self.talk("Boss today's shedule is")
+        self.talk("Boss today's schedule is")
         Week = {"monday" : "Boss from 9:00 to 9:50 you have Cultural class, from 10:00 to 11:50 you have mechanics class, from 12:00 to 2:00 you have brake, and today you have sensors lab from 2:00",
         "tuesday" : "Boss from 9:00 to 9:50 you have English class, from 10:00 to 10:50 you have break,from 11:00 to 12:50 you have ELectrical class, from 1:00 to 2:00 you have brake, and today you have biology lab from 2:00",
         "wednesday" : "Boss today you have a full day of classes from 9:00 to 10:50 you have Data structures class, from 11:00 to 11:50 you have mechanics class, from 12:00 to 12:50 you have cultural class, from 1:00 to 2:00 you have brake, and today you have Data structures lab from 2:00",
@@ -933,7 +933,7 @@ class MainThread(QThread):
         pdfReader = PyPDF2.PdfFileReader(book_n)
         pages = pdfReader.numPages
         self.talk(f"Boss there are total of {pages} in this book")
-        self.talk("plsase enter the page number Which I nedd to read")
+        self.talk("Please enter the page number Which I nedd to read")
         num = int(input("Enter the page number: "))
         page = pdfReader.getPage(num)
         text = page.extractText()
