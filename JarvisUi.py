@@ -54,7 +54,7 @@ class Ui_JarvisUI(object):
 
         self.textBrowser_2 = QtWidgets.QTextBrowser(self.centralwidget)
         self.textBrowser_2.setGeometry(QtCore.QRect(950, 50, 161, 51))
-        self.textBrowser_2.setStyleSheet("background:transparent;\n"
+        self.textBrowser_2.setStyleSheet("background:white;\n"
         "border-radius:skyblue;\n"
         "color : white;\n"
         "font-size:20px;")
@@ -145,30 +145,33 @@ class Ui_JarvisUI(object):
         self.label_13.setObjectName("label_13")
 
         self.label_14 = QtWidgets.QLabel(self.centralwidget)
-        self.label_14.setGeometry(QtCore.QRect(1210, 20, 91, 31))
+        self.label_14.setGeometry(QtCore.QRect(830, 20, 91, 31))
         self.label_14.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_14.setStyleSheet("color: rgb(93, 234, 255);\n"
         "font: 75 11pt \"MS Shell Dlg 2\";")
         self.label_14.setObjectName("label_14")
 
         self.label_15 = QtWidgets.QLabel(self.centralwidget)
-        self.label_15.setGeometry(QtCore.QRect(1390, 20, 91, 31))
+        self.label_15.setGeometry(QtCore.QRect(980, 20, 91, 31))
         self.label_15.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_15.setStyleSheet("color: rgb(93, 234, 255);\n"
         "font: 75 11pt \"MS Shell Dlg 2\";")
         self.label_15.setObjectName("label_15")
+
         self.label_16 = QtWidgets.QLabel(self.centralwidget)
         self.label_16.setGeometry(QtCore.QRect(340, 370, 251, 371))
         self.label_16.setText("")
         # self.label_16.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\ironman3_flipped.gif"))
         self.label_16.setScaledContents(True)
         self.label_16.setObjectName("label_16")
+
         self.label_17 = QtWidgets.QLabel(self.centralwidget)
         self.label_17.setGeometry(QtCore.QRect(290, 70, 211, 71))
         self.label_17.setText("")
         # self.label_17.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\Sujith.gif"))
         self.label_17.setScaledContents(True)
         self.label_17.setObjectName("label_17")
+        
         self.label.raise_()
         self.pushButton_3.raise_()
         self.pushButton_4.raise_()
