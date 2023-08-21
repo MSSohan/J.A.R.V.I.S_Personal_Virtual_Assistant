@@ -200,7 +200,7 @@ class Ui_JarvisUI(object):
 
     def retranslateUi(self, JarvisUI):
         _translate = QtCore.QCoreApplication.translate
-        JarvisUI.setWindowTitle(_translate("JarvisUI", "J.A.R.V.I.S"))
+        JarvisUI.setWindowTitle(_translate("JarvisUI", "Boss I am J.A.R.V.I.S"))
         self.pushButton_3.setText(_translate("JarvisUI", "EXIT"))
         self.pushButton_4.setText(_translate("JarvisUI", "RUN"))
         self.label_14.setText(_translate("JarvisUI", "    DATE"))
