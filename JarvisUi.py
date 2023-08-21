@@ -45,19 +45,19 @@ class Ui_JarvisUI(object):
         self.pushButton_4.setObjectName("pushButton_4")
 
         self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser.setGeometry(QtCore.QRect(790, 50, 161, 51))
+        self.textBrowser.setGeometry(QtCore.QRect(800, 50, 141, 41))
         self.textBrowser.setStyleSheet("background:transparent;\n"
         "border-radius:skyblue;\n"
         "color : white;\n"
-        "font-size:20px;")
+        "font-size:18px;")
         self.textBrowser.setObjectName("textBrowser")
 
         self.textBrowser_2 = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser_2.setGeometry(QtCore.QRect(950, 50, 161, 51))
-        self.textBrowser_2.setStyleSheet("background:white;\n"
+        self.textBrowser_2.setGeometry(QtCore.QRect(960, 50, 141, 41))
+        self.textBrowser_2.setStyleSheet("background:transparent;\n"
         "border-radius:skyblue;\n"
         "color : white;\n"
-        "font-size:20px;")
+        "font-size:18px;")
         self.textBrowser_2.setObjectName("textBrowser_2")
 
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
@@ -171,7 +171,7 @@ class Ui_JarvisUI(object):
         # self.label_17.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\Sujith.gif"))
         self.label_17.setScaledContents(True)
         self.label_17.setObjectName("label_17")
-        
+
         self.label.raise_()
         self.pushButton_3.raise_()
         self.pushButton_4.raise_()
