@@ -45,7 +45,7 @@ class Ui_JarvisUI(object):
         self.pushButton_4.setObjectName("pushButton_4")
 
         self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser.setGeometry(QtCore.QRect(810, 50, 141, 41))
+        self.textBrowser.setGeometry(QtCore.QRect(820, 50, 141, 41))
         self.textBrowser.setStyleSheet("background:transparent;\n"
         "border-radius:skyblue;\n"
         "color : white;\n"
@@ -53,7 +53,7 @@ class Ui_JarvisUI(object):
         self.textBrowser.setObjectName("textBrowser")
 
         self.textBrowser_2 = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser_2.setGeometry(QtCore.QRect(970, 50, 141, 41))
+        self.textBrowser_2.setGeometry(QtCore.QRect(990, 50, 141, 41))
         self.textBrowser_2.setStyleSheet("background:transparent;\n"
         "border-radius:skyblue;\n"
         "color : white;\n"
@@ -152,7 +152,7 @@ class Ui_JarvisUI(object):
         self.label_14.setObjectName("label_14")
 
         self.label_15 = QtWidgets.QLabel(self.centralwidget)
-        self.label_15.setGeometry(QtCore.QRect(990, 20, 91, 31))
+        self.label_15.setGeometry(QtCore.QRect(980, 20, 91, 31))
         self.label_15.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_15.setStyleSheet("color: rgb(93, 234, 255);\n"
         "font: 75 11pt \"MS Shell Dlg 2\";")
