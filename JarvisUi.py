@@ -167,8 +167,8 @@ class Ui_JarvisUI(object):
 
         self.label_17 = QtWidgets.QLabel(self.centralwidget)
         self.label_17.setGeometry(QtCore.QRect(290, 70, 211, 71))
-        self.label_17.setText("")
-        # self.label_17.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\Sujith.gif"))
+        self.label_17.setText("sdfhgsu")
+        self.label_17.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\Sujith.gif"))
         self.label_17.setScaledContents(True)
         self.label_17.setObjectName("label_17")
 
