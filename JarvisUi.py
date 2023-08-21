@@ -68,7 +68,7 @@ class Ui_JarvisUI(object):
         self.label_3.setObjectName("label_3")
 
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
-        self.label_4.setGeometry(QtCore.QRect(-10, 50, 221, 321))
+        self.label_4.setGeometry(QtCore.QRect(0, 60, 161, 261))
         self.label_4.setText("")
         self.label_4.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\circle.gif"))
         self.label_4.setScaledContents(True)
@@ -103,16 +103,16 @@ class Ui_JarvisUI(object):
         self.label_7.setObjectName("label_7")
 
         self.label_8 = QtWidgets.QLabel(self.centralwidget)
-        self.label_8.setGeometry(QtCore.QRect(1220, 370, 251, 371))
+        self.label_8.setGeometry(QtCore.QRect(900, 285, 210, 261))
         self.label_8.setText("")
-        # self.label_8.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\ironman3.gif"))
+        self.label_8.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\ironman3.gif"))
         self.label_8.setScaledContents(True)
         self.label_8.setObjectName("label_8")
 
         self.label_9 = QtWidgets.QLabel(self.centralwidget)
-        self.label_9.setGeometry(QtCore.QRect(1610, 120, 221, 321))
+        self.label_9.setGeometry(QtCore.QRect(1185, 60, 161, 261))
         self.label_9.setText("")
-        # self.label_9.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\circle.gif"))
+        self.label_9.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\circle.gif"))
         self.label_9.setScaledContents(True)
         self.label_9.setObjectName("label_9")
 
@@ -131,16 +131,16 @@ class Ui_JarvisUI(object):
         self.label_11.setObjectName("label_11")
 
         self.label_12 = QtWidgets.QLabel(self.centralwidget)
-        self.label_12.setGeometry(QtCore.QRect(-30, 780, 201, 111))
+        self.label_12.setGeometry(QtCore.QRect(-30, 560, 191, 101))
         self.label_12.setText("")
-        # self.label_12.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\powersource.gif"))
+        self.label_12.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\powersource.gif"))
         self.label_12.setScaledContents(True)
         self.label_12.setObjectName("label_12")
 
         self.label_13 = QtWidgets.QLabel(self.centralwidget)
-        self.label_13.setGeometry(QtCore.QRect(1650, 780, 201, 111))
+        self.label_13.setGeometry(QtCore.QRect(1185, 560, 191, 101))
         self.label_13.setText("")
-        # self.label_13.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\powersource.gif"))
+        self.label_13.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\powersource.gif"))
         self.label_13.setScaledContents(True)
         self.label_13.setObjectName("label_13")
 
@@ -159,9 +159,9 @@ class Ui_JarvisUI(object):
         self.label_15.setObjectName("label_15")
 
         self.label_16 = QtWidgets.QLabel(self.centralwidget)
-        self.label_16.setGeometry(QtCore.QRect(340, 370, 251, 371))
+        self.label_16.setGeometry(QtCore.QRect(240, 285, 210, 261))
         self.label_16.setText("")
-        # self.label_16.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\ironman3_flipped.gif"))
+        self.label_16.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\ironman3_flipped.gif"))
         self.label_16.setScaledContents(True)
         self.label_16.setObjectName("label_16")
 
