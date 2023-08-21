@@ -45,7 +45,7 @@ class Ui_JarvisUI(object):
         self.pushButton_4.setObjectName("pushButton_4")
 
         self.textBrowser = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser.setGeometry(QtCore.QRect(800, 50, 141, 41))
+        self.textBrowser.setGeometry(QtCore.QRect(810, 50, 141, 41))
         self.textBrowser.setStyleSheet("background:transparent;\n"
         "border-radius:skyblue;\n"
         "color : white;\n"
@@ -53,7 +53,7 @@ class Ui_JarvisUI(object):
         self.textBrowser.setObjectName("textBrowser")
 
         self.textBrowser_2 = QtWidgets.QTextBrowser(self.centralwidget)
-        self.textBrowser_2.setGeometry(QtCore.QRect(960, 50, 141, 41))
+        self.textBrowser_2.setGeometry(QtCore.QRect(970, 50, 141, 41))
         self.textBrowser_2.setStyleSheet("background:transparent;\n"
         "border-radius:skyblue;\n"
         "color : white;\n"
@@ -145,14 +145,14 @@ class Ui_JarvisUI(object):
         self.label_13.setObjectName("label_13")
 
         self.label_14 = QtWidgets.QLabel(self.centralwidget)
-        self.label_14.setGeometry(QtCore.QRect(830, 20, 91, 31))
+        self.label_14.setGeometry(QtCore.QRect(835, 20, 91, 31))
         self.label_14.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_14.setStyleSheet("color: rgb(93, 234, 255);\n"
         "font: 75 11pt \"MS Shell Dlg 2\";")
         self.label_14.setObjectName("label_14")
 
         self.label_15 = QtWidgets.QLabel(self.centralwidget)
-        self.label_15.setGeometry(QtCore.QRect(980, 20, 91, 31))
+        self.label_15.setGeometry(QtCore.QRect(990, 20, 91, 31))
         self.label_15.setLayoutDirection(QtCore.Qt.LeftToRight)
         self.label_15.setStyleSheet("color: rgb(93, 234, 255);\n"
         "font: 75 11pt \"MS Shell Dlg 2\";")
@@ -166,9 +166,11 @@ class Ui_JarvisUI(object):
         self.label_16.setObjectName("label_16")
 
         self.label_17 = QtWidgets.QLabel(self.centralwidget)
-        self.label_17.setGeometry(QtCore.QRect(290, 70, 211, 71))
-        self.label_17.setText("sdfhgsu")
-        self.label_17.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\Sujith.gif"))
+        self.label_17.setGeometry(QtCore.QRect(290, 60, 211, 71))
+        self.label_17.setText("")
+        self.label_17.setStyleSheet("color: rgb(93, 234, 255);\n"
+        "font: 75 20pt \"MS Shell Dlg 2\";")
+        # self.label_17.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\Sohan.gif"))
         self.label_17.setScaledContents(True)
         self.label_17.setObjectName("label_17")
 
@@ -205,6 +207,7 @@ class Ui_JarvisUI(object):
         self.pushButton_4.setText(_translate("JarvisUI", "RUN"))
         self.label_14.setText(_translate("JarvisUI", "    DATE"))
         self.label_15.setText(_translate("JarvisUI", "      TIME"))
+        # self.label_17.setText(_translate("JarvisUI", "SOHAN"))
     
     def __init__(self, path):
         self.cpath = path
