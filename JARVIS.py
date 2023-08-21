@@ -46,7 +46,7 @@ import qrcode
 #we will be using this for text to speech function.
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
-engine.setProperty('voice',voices[1].id) #index '0' for 'David'(male) voice index '1' for 'zira'(female) voice
+engine.setProperty('voice',voices[0].id) #index '0' for 'David'(male) voice index '1' for 'zira'(female) voice
 
 #Main classs where all the functiona are present
 class MainThread(QThread):
@@ -92,7 +92,7 @@ class MainThread(QThread):
                 self.Clock_time(self.command)
             elif (('hi' in self.command) and len(self.command)==2) or ((('hai' in self.command) or ('hey' in self.command)) and len(self.command)==3) or (('hello' in self.command) and len(self.command)==5):
                 self.comum(self.command)
-            elif ('what can you do' in self.command) or ('your name' in self.command) or ('my name' in self.command) or ('university name' in self.command):
+            elif ('what can you do' in self.command) or ('what is your name' in self.command) or ('what is my name' in self.command) or ('where am I studing' in self.command):
                 self.Fun(self.command)
             elif ('joke'in self.command) or ('date' in self.command):
                 self.Fun(self.command)
@@ -597,7 +597,7 @@ class MainThread(QThread):
             self.talk("My name is Jarvis")
         elif ('my name' in command) or ('what is my name' in command):
             self.talk("your name is Sohan, you are my boss")
-        elif 'university name' in command:
+        elif 'study' in command:
             self.talk("you are studing in Chittagong University, with MSc in Electrical and Electronic Engineering") 
         elif 'what can you do' in command:
             self.talk("I talk with you until you want to stop, I can say time, open your social media accounts,your open source accounts, open google browser,and I can also open your college websites, I can search for some thing in google and I can tell jokes")
