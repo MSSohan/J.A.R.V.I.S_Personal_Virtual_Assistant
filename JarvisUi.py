@@ -68,9 +68,9 @@ class Ui_JarvisUI(object):
         self.label_3.setObjectName("label_3")
 
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
-        self.label_4.setGeometry(QtCore.QRect(-10, 120, 221, 321))
+        self.label_4.setGeometry(QtCore.QRect(-10, 50, 221, 321))
         self.label_4.setText("")
-        # self.label_4.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\circle.gif"))
+        self.label_4.setPixmap(QtGui.QPixmap(rf"{self.cpath}\UI\circle.gif"))
         self.label_4.setScaledContents(True)
         self.label_4.setObjectName("label_4")
 
