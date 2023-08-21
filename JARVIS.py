@@ -151,14 +151,14 @@ class MainThread(QThread):
                 self.OpenApp(self.command)
             #Command to close desktop applications
             #It can close : caliculator, notepad,paint, discord, spotify, ltspice,vscode(aka editor), steam, VLC media player
-            elif ('close calculator'in self.command) or ('close notepad'in self.command) or ('close paint'in self.command) or ('close discord'in self.command) or ('close ltspice'in self.command) or ('close editor'in self.command) or ('close spotify'in self.command) or ('close steam'in self.command) or ('close media player'in self.command):
+            elif ('close calculator'in self.command) or ('close notepad'in self.command) or ('close paint'in self.command) or ('close discord'in self.command) or ('close pspice'in self.command) or ('close editor'in self.command) or ('close spotify'in self.command) or ('close steam'in self.command) or ('close media player'in self.command):
                 self.CloseApp(self.command)
             #command for opening shopping websites 
             #NOTE: you can add as many websites
             elif ('flipkart'in self.command) or ('amazon'in self.command) :
                 self.shopping(self.command)
             #command for asking your current location
-            elif ('where i am' in self.command) or ('where we are' in self.command):
+            elif ('where am i' in self.command) or ('where are we' in self.command):
                 self.locaiton()
             #command for opening command prompt 
             #Eg: jarvis open command prompt
